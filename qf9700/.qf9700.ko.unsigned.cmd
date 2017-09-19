@@ -1,0 +1,1 @@
+cmd_/data/driver/qf9700/qf9700.ko.unsigned := ld -r -m elf_x86_64 -T /usr/src/kernels/2.6.32-642.13.1.el6.x86_64/scripts/module-common.lds --build-id -o /data/driver/qf9700/qf9700.ko.unsigned /data/driver/qf9700/qf9700.o /data/driver/qf9700/qf9700.mod.o 
